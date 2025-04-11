@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ControleFinanceiro.Common\ControleFinanceiro.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\Dashboard\" />
+    <Folder Include="Entities\Expenses\" />
+    <Folder Include="Entities\Receivables\" />
+    <Folder Include="Entities\Reports\" />
+    <Folder Include="Entities\Revenues\" />
+    <Folder Include="Entities\Users\" />
+    <Folder Include="Interfaces\Dashboard\" />
+    <Folder Include="Interfaces\Expenses\" />
+    <Folder Include="Interfaces\Receivables\" />
+    <Folder Include="Interfaces\Reports\" />
+    <Folder Include="Interfaces\Revenues\" />
+    <Folder Include="Interfaces\Users\" />
+    <Folder Include="Services\Dashboard\" />
+    <Folder Include="Services\Expenses\" />
+    <Folder Include="Services\Receivables\" />
+    <Folder Include="Services\Reports\" />
+    <Folder Include="Services\Revenues\" />
+    <Folder Include="Services\Users\" />
+  </ItemGroup>
+
+</Project>

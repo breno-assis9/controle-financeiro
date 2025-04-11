@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\Dashboard\" />
+    <Folder Include="Controllers\Expenses\" />
+    <Folder Include="Controllers\Receivables\" />
+    <Folder Include="Controllers\Reports\" />
+    <Folder Include="Controllers\Revenues\" />
+    <Folder Include="Controllers\Users\" />
+    <Folder Include="Entities\Dashboard\" />
+    <Folder Include="Entities\Expenses\" />
+    <Folder Include="Entities\Receivables\" />
+    <Folder Include="Entities\Reports\" />
+    <Folder Include="Entities\Revenues\" />
+    <Folder Include="Entities\Users\" />
+    <Folder Include="Repositories\Dashboard\" />
+    <Folder Include="Repositories\Expenses\" />
+    <Folder Include="Repositories\Receivables\" />
+    <Folder Include="Repositories\Reports\" />
+    <Folder Include="Repositories\Revenues\" />
+    <Folder Include="Repositories\Users\" />
+    <Folder Include="Services\Dashboard\" />
+    <Folder Include="Services\Expenses\" />
+    <Folder Include="Services\Receivables\" />
+    <Folder Include="Services\Reports\" />
+    <Folder Include="Services\Revenues\" />
+    <Folder Include="Services\Users\" />
+  </ItemGroup>
+
+</Project>
